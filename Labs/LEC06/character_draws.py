@@ -68,6 +68,8 @@ def draw_triangle_right():
 
 def draw_triangle_left():
     print('tri_LEFT')
+    for x, y in zip(range(400, 200, -5), range(500, 100, -10)):
+        draw_character(x, y)
 
     pass
 
