@@ -71,7 +71,6 @@ def draw_triangle_left():
     for x, y in zip(range(400, 200, -5), range(500, 100, -10)):
         draw_character(x, y)
 
-    pass
 
 def draw_triangle():
     print("triangle")
