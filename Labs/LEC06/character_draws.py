@@ -64,7 +64,7 @@ def draw_triangle_right():
     print('tri_RIGHT')
     for x, y in zip(range(600, 400, -5), range(100, 500, 10)):
         draw_character(x, y)
-    pass
+    
 
 def draw_triangle_left():
     print('tri_LEFT')
