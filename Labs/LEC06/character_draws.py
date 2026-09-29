@@ -78,13 +78,13 @@ def draw_triangle():
     draw_triangle_bottom()
     draw_triangle_right()
     draw_triangle_left()
-    pass
+    
 
 
 while True:
     # draw_circle()
-    draw_rectangle()
-    # draw_triangle()
+    # draw_rectangle()
+    draw_triangle()
     break
     
 
