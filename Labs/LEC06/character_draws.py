@@ -13,7 +13,8 @@ def draw_circle():
         x=400 + 200 * math.cos(rad)
         y=300 + 200 * math.sin(rad)
         draw_character(x, y)
-    pass
+    
+    
 
 def draw_top():
     print('TOP')
@@ -83,9 +84,9 @@ def draw_triangle():
 
 while True:
     draw_circle()
-    draw_rectangle()
-    draw_triangle()
-    # break
+    # draw_rectangle()
+    # draw_triangle()
+    break
     
 
 close_canvas()
