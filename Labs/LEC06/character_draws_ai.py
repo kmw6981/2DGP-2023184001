@@ -35,9 +35,28 @@ def draw_rectangle():
     for y in range(550, 50, -5):
         draw_character(50, y)
 
+def draw_triangle():
+    print("triangle")
+    
+    # 밑변
+    print('tri_BOTTOM')
+    for x in range(200, 600, 5):
+        draw_character(x, 100)
+        
+    # 오른쪽 변
+    print('tri_RIGHT')
+    for x, y in zip(range(600, 400, -5), range(100, 500, 10)):
+        draw_character(x, y)
+        
+    # 왼쪽 변
+    print('tri_LEFT')
+    for x, y in zip(range(400, 200, -5), range(500, 100, -10)):
+        draw_character(x, y)
+
 
 draw_circle()
 draw_rectangle()
+draw_triangle()
 
 
 close_canvas()
