@@ -55,12 +55,15 @@ def draw_rectangle():
     pass
 
 def draw_triangle_bottom():
+    print('tri_BOTTOM')
     pass
 
 def draw_triangle_right():
+    print('tri_RIGHT')
     pass
 
 def draw_triangle_left():
+    print('tri_LEFT')
     pass
 
 def draw_triangle():
@@ -72,8 +75,8 @@ def draw_triangle():
 
 
 while True:
-    draw_circle()
-    draw_rectangle()
+    # draw_circle()
+    # draw_rectangle()
     draw_triangle()
     break
     pass
