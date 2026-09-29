@@ -86,6 +86,6 @@ while True:
     draw_rectangle()
     draw_triangle()
     # break
-    pass
+    
 
 close_canvas()
