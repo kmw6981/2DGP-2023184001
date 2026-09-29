@@ -54,8 +54,20 @@ def draw_rectangle():
     draw_left()
     pass
 
+def draw_triangle_bottom():
+    pass
+
+def draw_triangle_right():
+    pass
+
+def draw_triangle_left():
+    pass
+
 def draw_triangle():
     print("triangle")
+    draw_triangle_bottom()
+    draw_triangle_right()
+    draw_triangle_left()
     pass
 
 
