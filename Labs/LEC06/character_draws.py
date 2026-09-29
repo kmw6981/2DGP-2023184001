@@ -45,7 +45,7 @@ def draw_left():
     print('LEFT')
     for y in range(50, 550, 5):
         draw_character(50, y)
-    pass
+    
 
 def draw_rectangle():
     print("rectangle")
@@ -53,7 +53,7 @@ def draw_rectangle():
     draw_right()
     draw_bottom()
     draw_left()
-    pass
+    
 
 def draw_triangle_bottom():
     print('tri_BOTTOM')
@@ -83,8 +83,8 @@ def draw_triangle():
 
 
 while True:
-    draw_circle()
-    # draw_rectangle()
+    # draw_circle()
+    draw_rectangle()
     # draw_triangle()
     break
     
