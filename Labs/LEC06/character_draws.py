@@ -82,8 +82,8 @@ def draw_triangle():
 
 
 while True:
-    # draw_circle()
-    # draw_rectangle()
+    draw_circle()
+    draw_rectangle()
     draw_triangle()
     break
     pass
